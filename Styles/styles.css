@@ -1,0 +1,140 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* search div styling */
+
+.search_div {
+  width: 100vw;
+  height: 10vh;
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+/* search bar styling */
+.search_div input {
+  width: 200px;
+}
+.search_div button {
+  width: 50px;
+  height: 19px;
+}
+
+/* body styling */
+
+.main_body {
+  width: 100vw;
+  height: 100vh;
+  background-color: blanchedalmond;
+  /* border: red 1px solid; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+/* main heading styling */
+
+.main_heading_div {
+  width: 100%;
+  height: 20%;
+  /* border: 1px solid; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+.main_heading_div h1 {
+  color: black;
+  opacity: 0.8;
+  text-transform: uppercase;
+}
+
+/* Input field Div styling */
+
+.input_field_div {
+  width: 100vw;
+  /* height: 12%; */
+  /* border: 1px solid; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: 20px; */
+}
+
+/* Input field styling */
+
+.input_field_div input {
+  width: 60%;
+  height: 40px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+/* Add button */
+
+.input_field_div button {
+  width: 100px;
+  height: 40px;
+  border-radius: 3px;
+  font-size: 16px;
+  background-color: blanchedalmond;
+}
+
+.ul_div {
+  display: flex;
+  /* flex: 3; */
+}
+
+.ul_list {
+  display: flex;
+  /* flex: 1; */
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ul_list li {
+  width: 500px;
+  border: 1px solid;
+  height: 50px;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 19px;
+  background-color: rgb(252, 223, 180);
+  /* flex: 2; */
+}
+
+.ul_list li button {
+  /* color: black; */
+  border: 5px solid yellow;
+  padding: 3px;
+  border-radius: 100%;
+  position: relative;
+  /* margin-left: 30%; */
+  /* float: right; */
+  /* flex: 3; */
+  background-color: rgb(253, 213, 152);
+}
+
+.delete {
+  display: none;
+}
+.done {
+  background-color: red;
+  color: black;
+}
+
+.deleteAll {
+  display: none;
+}
